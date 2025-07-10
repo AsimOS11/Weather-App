@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+height: 100vh;
+width:  100vw;
+
+}
+.weatherHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding-top: 2rem;
+    
+}
+.startbtnhaiwaladiv{
+ display: flex;
+ max-width: 550px;
+ justify-content: space-between;
+ margin: 0 auto;
+ margin-top: 2rem;
+ height: 30px;
+ margin-bottom: 1rem;
+}
+.btnhai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-weight: bold;
+    background-color: #6C5B7B;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btnhai.active{
+    background-color: #9c80b4;
+
+}
+.btnhai:hover{
+   
+    background-color: #756583;
+}
+.locationwaladiv{
+    display: none;
+
+}
+.locationwaladiv.active{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+.loactionWaliImage{
+    
+    width: 80px;
+    height: 80px;
+}
+.grantLocationWalaPara{
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 19px;
+}
+.AllowAccessWqalaPara{
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-top: 13px;
+}
+.grantaccessbuttonhai{
+    margin-top: 20px;
+    width: 160px;
+    height: 38px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #6C5B7B;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(194, 192, 189);
+}
+.grantaccessbuttonhai:hover{
+    background-color: #756583;
+}
+.loadingwaladiv{
+    display: none;
+
+}
+.loadingwaladiv.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+
+}
+.LoadingWaliImage{
+    width: 120px;
+    height: 120px;
+}
+.LoadingWalaPara{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+.searchcitywaladiv{
+    display: none;
+
+}
+.searchcitywaladiv.active{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.SeachInputWala{
+    width: 350px;
+    height: 40px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: sans-serif;
+    background-color: #6C5B7B;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+                                                                 
+}
+.SeachInputWala::placeholder{
+    color: aliceblue;
+}
+.SearchInpWalaButton{
+    width: 40px;
+    height: 40px;
+    background-color: #9574b1;
+    margin-left: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.SearchInpWalaButton:hover{
+    background-color:#9c80b4 ;
+}
+.SearchInpWaliImage{
+    width: 20px;
+    height: 20px;
+
+}
+.informationwaladiv{
+    display: none;
+}
+.informationwaladiv.active{
+    width: 550px;
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin:70px auto 0 auto;
+}
+.citydisplaywaladiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.citydisplaywalapara{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.flag-ayga{
+    margin-left: 10px;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 15px;
+
+}
+.mosam-type-wala-para{
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-bottom: 15px;
+
+}
+.mosam-type-icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+
+}
+.temp-wala-para{
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: xx-large;
+
+}
+.teen-div{
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+.teenWaliImages{
+    height: 50px;
+    width: 50px;
+}
+.first-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    background-color: rgb(97, 71, 97);
+    padding: 10px;
+    border-radius: 9px;
+    width: 77px;
+
+}
+.first-div-para{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.first-div-para-value{
+    color: aliceblue;
+    font-family: sans-serif;
+
+}
+.second-div-para-value{
+    color: aliceblue;
+    font-family: sans-serif;
+    
+}
+.third-div-para-value{
+    color: aliceblue;  
+    font-family: sans-serif;
+}
+.errorwaladivmeimage{
+    height: 300px;
+    width: 300px;
+}
+.errorwaladiv{
+    display: none;
+}
+.errorwaladiv.active{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.errorwaladivmepara{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 20px;
+}
