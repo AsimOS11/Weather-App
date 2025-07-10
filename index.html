@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+ 
+    <div class="wrapper">
+        <h1 class="weatherHeading"  data-weatherheading>Weather App</h1>
+
+        
+        <div class="startbtnhaiwaladiv">
+            <button class="yourweatherwali btnhai" data-btnhai>Your Weather</button>
+            <button class="searchweatherwali btnhai" data-btnhai>search Weather</button>
+        </div>
+
+        <div class="locationwaladiv">
+            <img src="/images/location.png" class="loactionWaliImage">
+            <p class="grantLocationWalaPara">Grant Location Access</p>
+            <p class="AllowAccessWqalaPara">Allow Access To Get Weather Information</p>
+            <button class="grantaccessbuttonhai">Grant Access</button>
+        </div>
+
+
+        <div class="loadingwaladiv">
+            <img src="/images/loading.gif" class="LoadingWaliImage">
+            <p class="LoadingWalaPara">Loading...</p>
+        </div>
+
+        <div class="searchcitywaladiv">
+            <form class="formhai" >
+            <input type="text" placeholder="Search for City" class="SeachInputWala" required>
+            <button class="SearchInpWalaButton" type="submit"><img src="/images/search.png" 
+                class="SearchInpWaliImage"></button>
+            </form>
+            
+        </div>
+
+        <div class="informationwaladiv">
+            <div class="citydisplaywaladiv ">
+                <p class="citydisplaywalapara ">city name</p>
+                <img class="flag-ayga"src="https://flagsapi.com/BE/flat/64.png">
+            </div>
+
+            <p class="mosam-type-wala-para ">type of mosam</p>
+            <img class="mosam-type-icon" alt="weatherIcon">
+            <p class="temp-wala-para">temp bata rha</p>
+            <div class="teen-div">
+                
+                <div class="first-div">
+                    <img src="/images/wind.png" class="teenWaliImages">
+                    <p class="first-div-para">windspeed</p>
+                    <p class="first-div-para-value">speed</p>
+                </div>
+
+                <div class="first-div">
+                    <img src="/images/humidity.png" class="teenWaliImages">
+                    <p class="first-div-para">humidity</p>
+                    <p class="second-div-para-value">value</p>
+                </div>
+
+                <div class="first-div">
+                    <img src="/images/cloud.png" class="teenWaliImages">
+                    <p class="first-div-para">clouds</p>
+                    <p class="third-div-para-value">value</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="errorwaladiv">
+            <img src="/images/not-found.png" class="errorwaladivmeimage">
+            <p class="errorwaladivmepara">Error [Not Found]</p>
+        </div>
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
