@@ -280,11 +280,12 @@ body{
     }
     .teen-div{
         display: flex;
-        flex-direction: column;
+        width: 280px;
 
     }
     .first-div{
-        margin-bottom: 20px;
+        width: 90px;
+        height: 90px;
     }
     .SeachInputWala{
         width: 150px;
